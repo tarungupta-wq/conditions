@@ -1,0 +1,9 @@
+medical=input("Did you Have a Mediacal Cause Y or N")
+a=int(input("Enter the atendence of the student"))
+if medical=="Y":
+   print("The student is allowed to sit in the exam")
+else:
+ if a>=75:
+    print("The student is allowed to sit in the exam")
+ else :
+    print("The student is not allowed to sit in the exam")
